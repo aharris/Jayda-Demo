@@ -172,6 +172,27 @@ gulp.task('watch', function () {
   gulp.watch([p.config.appSrc + '/js/**/*.js', p.config.appSrc + '/components/**/*.js', p.config.appSrc + '/components/**/*.html'], ['js', 'jayda-get-components']);
 });
 
+// Initialize Jayda
+// Only run this once to start project as it will overewrite any changes
+gulp.task('jayda-init', function(callback){
+runSequence(
+  [
+    'jayda-copy'
+  ],
+  [
+    'jayda-install'
+  ],
+  callback);
+});
+gulp.task('jayda-copy', function () {
+  gulp.src('node_modules/jayda/**/*')
+    .pipe(gulp.dest('./jayda'));
+});
+
+gulp.task('jayda-install', shell.task([
+  'cd jayda && npm install && bower install'
+]));
+
 // Set Up Jayda
 gulp.task('jayda', shell.task([
   'cd jayda && gulp'

@@ -13,7 +13,7 @@ var gulp = require('gulp'),
   directoryMap = require("gulp-directory-map"),
   templatizer = require('templatizer'),
   karma = require('karma').server,
-  p = require('./package.json');
+  p = require('./jayda/package.json');
 
 
 // --------------------------------------

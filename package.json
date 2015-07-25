@@ -48,6 +48,6 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "Jayda": "file:jayda"
+    "jayda": "0.0.1"
   }
 }

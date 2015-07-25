@@ -1,7 +1,7 @@
 {
-  "name": "Jayda",
-  "version": "0.0.0",
-  "description": "",
+  "name": "jayda",
+  "version": "0.0.1",
+  "description": "Jayda is an automatic pattern library generator with some built in start libraries if you choose to use them.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git@github.com:aharris/jayda.git"
   },
-  "author": "",
+  "author": {
+    "name": "ashtonharris.me@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "browserify": "^10.0.0",
@@ -53,13 +55,30 @@
     "// css": "// Options: stylus / sass",
     "css": "stylus"
   },
+  "gitHead": "2763049d380064cba6036bb718e1043dc3246545",
   "bugs": {
     "url": "https://github.com/aharris/jayda/issues"
   },
-  "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/aharris/jayda",
-  "_id": "Jayda@0.0.0",
-  "_shasum": "f62d503190289207a2feba8317e67d7ad323a250",
-  "_from": "jayda",
-  "_resolved": "file:jayda"
+  "_id": "jayda@0.0.1",
+  "_shasum": "7c34bf324812122038cf7065c12d1eeaf59e1785",
+  "_from": "jayda@0.0.1",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "busypixels",
+    "email": "ashtonharris.me@gmail.com"
+  },
+  "dist": {
+    "shasum": "7c34bf324812122038cf7065c12d1eeaf59e1785",
+    "tarball": "http://registry.npmjs.org/jayda/-/jayda-0.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "busypixels",
+      "email": "ashtonharris.me@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/jayda/-/jayda-0.0.1.tgz"
 }
